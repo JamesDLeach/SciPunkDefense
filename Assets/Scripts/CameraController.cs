@@ -12,29 +12,12 @@ class CameraController : MonoBehaviour
     public Camera mainCamera;
     public bool isRotationAllowed;
     private Plane plane;
-    private TouchPhase touchPhase;
-    private struct SimTouch
-    {
-        public Vector3 position;
-        public Vector3 deltaPosition;
-        public TouchPhase phase;
+    private List<Touch> touchList;
 
-        public SimTouch(Vector2 position, Vector2 deltaPosition, TouchPhase phase)
-        {
-            this.position = position;
-            this.deltaPosition = deltaPosition;
-            this.phase = phase;
-        }
-    }
-    private List<SimTouch> touchList;
-    private Vector3 currMousePos;
-    private Vector3 prevMousePos;
-    private Vector3 deltaMousePos;
-
-    private Vector3 PlanePositionDelta(SimTouch touch)
+    private Vector3 PlanePositionDelta(Touch touch)
     {
         // do nothing if touch hasn't moved
-        if (touch.phase != TouchPhase.Moved)
+        if (!touch.phase.Equals(TouchPhase.Moved))
         {
             return Vector3.zero;
         }
@@ -66,7 +49,7 @@ class CameraController : MonoBehaviour
     private void HandleScroll()
     {
         plane.SetNormalAndPosition(transform.up, transform.position); // Update Plane
-        if (touchList[0].phase == TouchPhase.Moved)
+        if (touchList[0].phase.Equals(TouchPhase.Moved))
         {
             mainCamera.transform.Translate(PlanePositionDelta(touchList[0]), Space.World);
         }
@@ -106,27 +89,8 @@ class CameraController : MonoBehaviour
 
     private void Update()
     {
-        // Keep track of delta mouse pos
-        currMousePos = Input.mousePosition;
-        deltaMousePos = currMousePos - prevMousePos;
-        prevMousePos = currMousePos;
-
         // Init touchList
-        touchList = new List<SimTouch>();
-
-        // Handle diff in touch screen vs desktop
-        if (SystemInfo.deviceType.Equals(DeviceType.Handheld))
-        {
-            foreach (Touch touch in Input.touches)
-            {
-                touchList.Add(new SimTouch(touch.position, touch.deltaPosition, touch.phase));
-            }
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            touchList.Add(new SimTouch(currMousePos, deltaMousePos, TouchPhase.Moved));
-        }
-
+        touchList = GameManager.InputManager.touchList;
         if (touchList.Count >= 1)
         {
             HandleScroll();

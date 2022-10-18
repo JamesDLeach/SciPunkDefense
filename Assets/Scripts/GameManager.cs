@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    private static InputManager _inputManager;
 
     public static GameManager Instance
     {
@@ -16,6 +17,18 @@ public class GameManager : MonoBehaviour
                 Debug.LogError("GameManager is NULL");
             }
             return _instance;
+        }
+    }
+
+    public static InputManager InputManager
+    {
+        get
+        {
+            if (_inputManager is null)
+            {
+                Debug.LogError("InputManager is NULL");
+            }
+            return _inputManager;
         }
     }
 
@@ -40,5 +53,6 @@ public class GameManager : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         _instance = this;
+        _inputManager = GetComponent<InputManager>();
     }
 }
