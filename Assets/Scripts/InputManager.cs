@@ -5,9 +5,10 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     public List<Touch> touchList;
-    private Vector3 currMousePos;
-    private Vector3 prevMousePos;
-    private Vector3 deltaMousePos;
+    public Vector3 currMousePos;
+    public Vector3 prevMousePos;
+    public Vector3 deltaMousePos;
+    public float deltaMouseScroll;
 
     private void InitTouchList()
     {
@@ -15,6 +16,7 @@ public class InputManager : MonoBehaviour
         currMousePos = Input.mousePosition;
         deltaMousePos = currMousePos - prevMousePos;
         prevMousePos = currMousePos;
+        deltaMouseScroll = Input.mouseScrollDelta.y;
         touchList = new List<Touch>(Input.touches);
         if (!SystemInfo.deviceType.Equals(DeviceType.Handheld) && Input.GetMouseButton(0))
         {

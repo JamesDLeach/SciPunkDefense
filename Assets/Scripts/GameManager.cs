@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     private static InputManager _inputManager;
+    private static GridManager _gridManager;
 
     public static GameManager Instance
     {
@@ -29,6 +30,17 @@ public class GameManager : MonoBehaviour
                 Debug.LogError("InputManager is NULL");
             }
             return _inputManager;
+        }
+    }
+    public static GridManager GridManager
+    {
+        get
+        {
+            if(_gridManager is null)
+            {
+                Debug.LogError("GridManager is NULL");
+            }
+            return _gridManager;
         }
     }
 
@@ -54,5 +66,6 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this);
         _instance = this;
         _inputManager = GetComponent<InputManager>();
+        _gridManager = GetComponent<GridManager>();
     }
 }

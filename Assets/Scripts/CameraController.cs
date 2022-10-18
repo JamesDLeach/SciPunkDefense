@@ -11,6 +11,8 @@ class CameraController : MonoBehaviour
 {
     public Camera mainCamera;
     public bool isRotationAllowed;
+    public float minDist;
+    public float maxDist;
     private Plane plane;
     private List<Touch> touchList;
 
@@ -71,7 +73,8 @@ class CameraController : MonoBehaviour
         }
 
         // Move camera by the ray
-        mainCamera.transform.position = Vector3.LerpUnclamped(pos1, mainCamera.transform.position, 1 / zoom);
+        Vector3 newPosition = Vector3.LerpUnclamped(pos1, mainCamera.transform.position, 1 / zoom);
+        mainCamera.transform.position = newPosition;
 
         if (isRotationAllowed && pos2b != pos2)
         {
@@ -89,6 +92,7 @@ class CameraController : MonoBehaviour
 
     private void Update()
     {
+        Vector3 oldCamPos = mainCamera.transform.position;
         // Init touchList
         touchList = GameManager.InputManager.touchList;
         if (touchList.Count >= 1)
@@ -98,6 +102,19 @@ class CameraController : MonoBehaviour
         if (touchList.Count >= 2)
         {
             HandleZoom();
+        }
+        if (GameManager.InputManager.deltaMouseScroll != 0)
+        {
+            Vector3 mouseWorldPos = PlanePosition(GameManager.InputManager.currMousePos);
+            float dist = (mouseWorldPos - mainCamera.transform.position).magnitude;
+            float zoom = 1 - (GameManager.InputManager.deltaMouseScroll / dist);
+            Vector3 newPosition = Vector3.LerpUnclamped(mouseWorldPos, mainCamera.transform.position, zoom);
+            mainCamera.transform.position = newPosition;
+        }
+        float distToGrid = mainCamera.transform.position.y - GameManager.GridManager.gridParent.transform.position.y;
+        if (distToGrid > maxDist || distToGrid < minDist)
+        {
+            mainCamera.transform.position = oldCamPos;
         }
     }
 
