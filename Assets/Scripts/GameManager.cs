@@ -9,6 +9,32 @@ public class GameManager : MonoBehaviour
     private static InputManager _inputManager;
     private static GridManager _gridManager;
 
+    public int currency;
+    public int startCurrency;
+    public int round;
+
+    public delegate void GameEvent();
+    public static event GameEvent GameStart, GameOver, GameStateChange;
+
+    public enum GameState
+    {
+        Menu,
+        Building,
+        Wave
+    }
+    private GameState _state;
+    public GameState State { 
+        get
+        {
+            return _state;
+        }
+        set
+        {
+            this._state = value;
+            GameStateChange?.Invoke();
+        }
+    }
+
     public static GameManager Instance
     {
         get
@@ -44,28 +70,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public delegate void GameEvent();
-    public static event GameEvent GameStart, GameOver;
-    public static void TriggerGameStart()
-    {
-        if (GameStart != null)
-        {
-            GameStart();
-        }
-    }
-    public static void TriggerGameOver()
-    {
-        if (GameOver != null)
-        {
-            GameOver();
-        }
-    }
-
     private void Awake()
     {
         DontDestroyOnLoad(this);
         _instance = this;
         _inputManager = GetComponent<InputManager>();
         _gridManager = GetComponent<GridManager>();
+        State = GameState.Menu;
+    }
+
+    private void Start()
+    {
+        GameStart?.Invoke();
     }
 }
