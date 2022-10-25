@@ -100,10 +100,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridPos: {x: 0, y: 0}
   turret: {fileID: 0}
-  floorTile: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
+  floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
+  turretOffset: {x: 0, y: 0, z: 0}
+  floorOffset: {x: 0, y: 0, z: 0}
   isHovered: 0
-  defaultMaterial: {fileID: 2100000, guid: e4d209bfb0362a14d9e30aba6f945e85, type: 2}
+  defaultMaterial: {fileID: 2100000, guid: 37e1b074d81ac1d45b2bd558476b5df5, type: 2}
   hoverMaterial: {fileID: 2100000, guid: 3a00bbcf39c0fe746a04509bd61e9c4c, type: 2}
 --- !u!65 &1356549832201648351
 BoxCollider:
