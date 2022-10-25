@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2088942044565282227}
   - component: {fileID: 2088942044565282226}
   - component: {fileID: -3115166387174270937}
+  - component: {fileID: 1356549832201648351}
   m_Layer: 0
   m_Name: GridTile
   m_TagString: Untagged
@@ -97,3 +98,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridPos: {x: 0, y: 0}
+  turret: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  isHovered: 0
+  defaultMaterial: {fileID: 0}
+  hoverMaterial: {fileID: 2100000, guid: 3a00bbcf39c0fe746a04509bd61e9c4c, type: 2}
+--- !u!65 &1356549832201648351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088942044565282224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.5, y: 2.220446e-16, z: 10.5}
+  m_Center: {x: 0, y: 0, z: 0}

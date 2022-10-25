@@ -10,11 +10,11 @@ public class GridManager : MonoBehaviour
     public float padding;
     public GameObject gridTile;
     public GameObject gridParent;
-    public List<GridTile> gridTileList;
+    public Dictionary<(int, int), GridTile> gridMap;
 
     void Start()
     {
-        gridTileList = new List<GridTile>();
+        gridMap = new Dictionary<(int, int), GridTile>();
         Vector3 gridCorner = gridParent.transform.position;
         Vector3 offSet = gridCorner - new Vector3(tileSize * gridWidth / 2, 0, tileSize * gridLength / 2);
         for (int x = 0; x < gridWidth; x++)
@@ -29,14 +29,8 @@ public class GridManager : MonoBehaviour
                 Vector3 size = newTile.GetComponent<Renderer>().bounds.size;
                 newTile.transform.localScale = ((tileSize - padding)) * new Vector3(1 / size.x, 0, 1 / size.z);
                 newTileComponent.gridPos = new Vector2(x, z);
-                gridTileList.Add(newTileComponent);
+                gridMap.Add((x, z), newTileComponent);
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
