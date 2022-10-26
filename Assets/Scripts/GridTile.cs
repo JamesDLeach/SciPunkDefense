@@ -11,6 +11,8 @@ public class GridTile : MonoBehaviour
     public Vector3 floorOffset;
     public bool isHovered;
 
+    public bool isOccupied; //Used to check if there is a building in grid tile
+
     public Material defaultMaterial;
     public Material hoverMaterial;
 
@@ -31,16 +33,17 @@ public class GridTile : MonoBehaviour
         {
             return;
         }
-        GameObject tempTile = Instantiate(floorTile, transform.position, transform.rotation, transform);
-        Vector3 size = tempTile.GetComponent<Renderer>().bounds.size;
-        tempTile.transform.localScale = ((GameManager.GridManager.tileSize)) * new Vector3(1 / size.x, 0, 1 / size.z);
-        //tempTile.transform.position = transform.position + new Vector3(0, -1, 0); //Have to reset position after scaling
+        GameObject tempTile = Instantiate(floorTile, gameObject.transform.position, gameObject.transform.rotation);
+        Vector3 size = _renderer.bounds.size;
+        //Think scale should be tile size + 2 * padding
+        tempTile.transform.localScale = new Vector3(5 / size.x, 1, 5 / size.z);
     }
 
     private void Start()
     {
         SetTurretPos();
         isHovered = false;
+        isOccupied = false;
         _renderer = GetComponent<Renderer>();
         defaultMaterial = defaultMaterial ?? _renderer.material;
         InstantiateFloorTile();
