@@ -4412,6 +4412,7 @@ MonoBehaviour:
   startCurrency: 200
   round: 1
   coreHealth: 1
+  turretCost: 100
   coreSpawned: 0
 --- !u!4 &123775843
 Transform:

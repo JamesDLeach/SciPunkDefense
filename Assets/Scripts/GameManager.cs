@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public int startCurrency;
     public int round;
     public int coreHealth;
+    public int turretCost;
     public bool coreSpawned;
 
     public delegate void GameEvent();

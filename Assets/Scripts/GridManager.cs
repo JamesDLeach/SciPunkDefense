@@ -37,7 +37,7 @@ public class GridManager : MonoBehaviour
 
     public void PlaceTurret(GameObject turret)
     {
-        if (selectedTile == null)
+        if (selectedTile == null || GameManager.Instance.turretCost > GameManager.Instance.currency)
         {
             return;
         }
@@ -46,6 +46,7 @@ public class GridManager : MonoBehaviour
         selectedTile.isOccupied = true;
         selectedTile.GetComponent<Renderer>().enabled = false;
         Physics.IgnoreCollision(selectedTile.GetComponent<Collider>(), turret.GetComponentInChildren<Collider>());
+        GameManager.Instance.currency -= GameManager.Instance.turretCost;
     }
 
     void Start()
