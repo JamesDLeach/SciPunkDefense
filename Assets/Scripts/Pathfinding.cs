@@ -25,6 +25,11 @@ public class Pathfinding : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if(gameObject.GetComponent<SST_Actor>().toughness < 0)
+        {
+            GameManager.Instance.currency += 50;
+            Destroy(gameObject);
+        }
         if (!nav.pathPending && nav.remainingDistance < 0.5f)
         {
             GoToNextPoint();
@@ -39,8 +44,13 @@ public class Pathfinding : MonoBehaviour
         {
             return;
         }
-
+        int prevDest = destPoint;
         nav.destination = points[destPoint].position;
         destPoint = (destPoint + 1) % points.Length;
+        if(prevDest - 1 > destPoint)
+        {
+            GameManager.Instance.coreHealth -= 10;
+            Destroy(gameObject);
+        }
     }
 }

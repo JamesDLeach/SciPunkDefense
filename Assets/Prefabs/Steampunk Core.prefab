@@ -107,7 +107,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5186016603704418777}
-  - component: {fileID: 519691118}
   m_Layer: 0
   m_Name: Steampunk Core
   m_TagString: Untagged
@@ -143,23 +142,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519691118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646093930492702795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b6cc91d67175be4a889adf45297d08b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MAX_HEALTH: 200
-  gen_Time: 5
-  gen_amnt: 50
-  minion: {fileID: 7072444061591711186, guid: a766b24967d80dd41a9722033127cd06, type: 3}
-  minionPortal: {fileID: 0}
 --- !u!1001 &1599049836893135108
 PrefabInstance:
   m_ObjectHideFlags: 0

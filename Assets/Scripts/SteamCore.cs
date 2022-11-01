@@ -9,12 +9,11 @@ public class SteamCore : MonoBehaviour
     public int gen_amnt;
     public GameObject minion;
     public GameObject minionPortal;
-    int current_hp;
 
     // Start is called before the first frame update
     void Start()
     {
-        current_hp = MAX_HEALTH;
+        GameManager.Instance.coreHealth = MAX_HEALTH;
         GameManager.Instance.currency = GameManager.Instance.startCurrency;
         StartCoroutine(generateGold());
         StartCoroutine(generateMinions());
@@ -22,17 +21,17 @@ public class SteamCore : MonoBehaviour
 
     private IEnumerator generateGold()
     {
-        while (current_hp > 0)
+        while (GameManager.Instance.coreHealth > 0)
         {
             yield return new WaitForSeconds(gen_Time);
             GameManager.Instance.currency += gen_amnt;
-            current_hp--;
+            GameManager.Instance.coreHealth--;
         }
     }
 
     private IEnumerator generateMinions()
     {
-        while (current_hp > 0)
+        while (GameManager.Instance.coreHealth > 0)
         {
             yield return new WaitForSeconds(gen_Time / 3);
             GameObject tempMin = Instantiate(minion, minionPortal.transform.position, Quaternion.identity);
@@ -43,7 +42,6 @@ public class SteamCore : MonoBehaviour
     //Generates gold for player every so often
     void FixedUpdate()
     {
-        GameManager.Instance.coreHealth = current_hp;
     }
 
 
