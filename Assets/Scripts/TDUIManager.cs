@@ -1,20 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class TDUIManager : MonoBehaviour
 {
-    public TMP_Text goldCount;
-    public TMP_Text coreHealth;
-    public TMP_Text roundCount;
+    public TextMesh goldCount;
+    public TextMesh coreHealth;
+    public TextMesh roundCount;
 
     // Start is called before the first frame update
     void Start()
     {
-        goldCount.SetText(gameObject.GetComponent<GameManager>().startCurrency.ToString());
-        coreHealth.SetText(gameObject.GetComponent<GameManager>().coreHealth.ToString());
-        roundCount.SetText(gameObject.GetComponent<GameManager>().round.ToString());
+        goldCount.text = (gameObject.GetComponent<GameManager>().startCurrency.ToString());
+        coreHealth.text = (gameObject.GetComponent<GameManager>().coreHealth.ToString());
+        roundCount.text = (gameObject.GetComponent<GameManager>().round.ToString());
         gameObject.GetComponent<GameManager>().coreSpawned = false;
     }
 
@@ -24,8 +23,8 @@ public class TDUIManager : MonoBehaviour
     //Don't need to update every frame
     void FixedUpdate()
     {
-        goldCount.SetText(gameObject.GetComponent<GameManager>().startCurrency.ToString());
-        coreHealth.SetText(gameObject.GetComponent<GameManager>().coreHealth.ToString());
-        roundCount.SetText(gameObject.GetComponent<GameManager>().round.ToString());
+        goldCount.text = (gameObject.GetComponent<GameManager>().startCurrency.ToString());
+        coreHealth.text = (gameObject.GetComponent<GameManager>().coreHealth.ToString());
+        roundCount.text = (gameObject.GetComponent<GameManager>().round.ToString());
     }
 }
