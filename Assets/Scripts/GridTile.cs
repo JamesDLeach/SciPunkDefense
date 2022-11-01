@@ -10,12 +10,10 @@ public class GridTile : MonoBehaviour
     public Vector3 turretOffset;
     public Vector3 floorOffset;
     public bool isHovered;
-
+    public bool isSelected;
     public bool isOccupied; //Used to check if there is a building in grid tile
-
     public Material defaultMaterial;
     public Material hoverMaterial;
-
     private Renderer _renderer;
 
     private void SetTurretPos()
@@ -44,20 +42,42 @@ public class GridTile : MonoBehaviour
         SetTurretPos();
         isHovered = false;
         isOccupied = false;
+        isSelected = false;
         _renderer = GetComponent<Renderer>();
         defaultMaterial = defaultMaterial ?? _renderer.material;
         InstantiateFloorTile();
     }
 
+    private void UpdateMaterial (Material material)
+    {
+        if (isSelected)
+        {
+            return;
+        }
+        _renderer.material = material;
+    }
+
     private void OnMouseEnter()
     {
         isHovered = true;
-        _renderer.material = hoverMaterial;
+        UpdateMaterial(hoverMaterial);
     }
 
     private void OnMouseExit()
     {
         isHovered = false;
-        _renderer.material = defaultMaterial;
+        UpdateMaterial(defaultMaterial);
+    }
+
+    private void OnMouseDown()
+    {
+        if (isSelected || isOccupied)
+        {
+            GameManager.GridManager.selectedTile = null;
+        }
+        else
+        {
+            GameManager.GridManager.selectedTile = this;
+        }
     }
 }

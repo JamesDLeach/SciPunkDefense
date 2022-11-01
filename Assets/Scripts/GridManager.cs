@@ -12,6 +12,39 @@ public class GridManager : MonoBehaviour
     public GameObject gridParent;
     public GameObject steamCore;
     public Dictionary<(int, int), GridTile> gridMap;
+    private GridTile _selectedTile;
+    public GridTile selectedTile
+    {
+        get
+        {
+            return _selectedTile;
+        }
+        set
+        {
+            if (_selectedTile != null)
+            {
+                _selectedTile.isSelected = false;
+                _selectedTile.GetComponent<Renderer>().material = _selectedTile.defaultMaterial;
+            }
+            this._selectedTile = value;
+            if (_selectedTile != null)
+            {
+                _selectedTile.isSelected = true;
+                _selectedTile.GetComponent<Renderer>().material = _selectedTile.hoverMaterial;
+            }
+        }
+    }
+
+    public void PlaceTurret(GameObject turret)
+    {
+        if (selectedTile == null)
+        {
+            return;
+        }
+        GameObject newTurret = Instantiate(turret, selectedTile.transform.position + selectedTile.turretOffset, Quaternion.identity, selectedTile.transform.parent);
+        selectedTile.turret = newTurret;
+        selectedTile.isOccupied = true;
+    }
 
     void Start()
     {

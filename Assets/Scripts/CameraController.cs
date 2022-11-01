@@ -73,8 +73,8 @@ class CameraController : MonoBehaviour
         }
 
         // Move camera by the ray
-        Vector3 newPosition = Vector3.LerpUnclamped(pos1, mainCamera.transform.position, 1 / zoom);
-        mainCamera.transform.position = newPosition;
+        float newSize = Mathf.LerpUnclamped(0, mainCamera.orthographicSize, 1 / zoom);
+        mainCamera.orthographicSize = newSize;
 
         if (isRotationAllowed && pos2b != pos2)
         {
@@ -92,7 +92,7 @@ class CameraController : MonoBehaviour
 
     private void Update()
     {
-        Vector3 oldCamPos = mainCamera.transform.position;
+        float oldCamPos = mainCamera.orthographicSize;
         // Init touchList
         touchList = GameManager.InputManager.touchList;
         if (touchList.Count >= 1)
@@ -105,16 +105,12 @@ class CameraController : MonoBehaviour
         }
         if (GameManager.InputManager.deltaMouseScroll != 0)
         {
-            Vector3 mouseWorldPos = PlanePosition(GameManager.InputManager.currMousePos);
-            float dist = (mouseWorldPos - mainCamera.transform.position).magnitude;
-            float zoom = 1 - (GameManager.InputManager.deltaMouseScroll / dist);
-            Vector3 newPosition = Vector3.LerpUnclamped(mouseWorldPos, mainCamera.transform.position, zoom);
-            mainCamera.transform.position = newPosition;
+            mainCamera.orthographicSize -= GameManager.InputManager.deltaMouseScroll;
         }
-        float distToGrid = mainCamera.transform.position.y - GameManager.GridManager.gridParent.transform.position.y;
+        float distToGrid = mainCamera.orthographicSize;
         if (distToGrid > maxDist || distToGrid < minDist)
         {
-            mainCamera.transform.position = oldCamPos;
+            mainCamera.orthographicSize = oldCamPos;
         }
     }
 
