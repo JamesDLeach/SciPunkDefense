@@ -1769,6 +1769,7 @@ GameObject:
   - component: {fileID: 2250699716641101840}
   - component: {fileID: -1916446405703650670}
   - component: {fileID: 4492925033551832726}
+  - component: {fileID: 5653158543221288669}
   m_Layer: 0
   m_Name: Minion
   m_TagString: Enemy
@@ -2007,6 +2008,20 @@ MonoBehaviour:
     deactivateFX: {fileID: 1678728823176512, guid: 6a342b4d22c62404baf7bd6057f1bdb3, type: 3}
   SFX:
     destroyClip: {fileID: 8300000, guid: a0a824e5785b3436886b35bd41079060, type: 3}
+--- !u!136 &5653158543221288669
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7072444061591711186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &7072444061591711188
 GameObject:
   m_ObjectHideFlags: 0
