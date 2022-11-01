@@ -279,7 +279,7 @@ MonoBehaviour:
     active: 1
     canFire: 1
     power: 10
-    ShootingDelay: 1
+    ShootingDelay: 0.5
     radius: 8
   targeting:
     aimingSpeed: 5
