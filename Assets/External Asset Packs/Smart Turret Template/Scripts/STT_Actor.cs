@@ -75,8 +75,7 @@ public class STT_Actor : MonoBehaviour {
 	public void Destroy() {
 
 		GetComponent<Collider> ().enabled = false;
-		GetComponent<Renderer> ().enabled = false;
 		GetComponent<AudioSource> ().PlayOneShot (SFX.destroyClip);
-		Destroy (gameObject, 2);
+		Destroy (gameObject);
 	}
 }
