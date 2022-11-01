@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public int coreHealth;
     public int turretCost;
     public bool coreSpawned;
+    public Transform[] points;
 
     public delegate void GameEvent();
     public static event GameEvent GameStart, GameOver, GameStateChange;
