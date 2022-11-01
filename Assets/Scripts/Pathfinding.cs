@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Pathfinding : MonoBehaviour
 {
     public Transform[] points;
-
+    private Animator animator;      // Component controlling player animations
     private NavMeshAgent nav;
     private int destPoint;
 
@@ -15,6 +15,11 @@ public class Pathfinding : MonoBehaviour
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        if(animator != null)
+        {
+            animator.SetTrigger("Run");
+        }
     }
 
     // Update is called once per frame
