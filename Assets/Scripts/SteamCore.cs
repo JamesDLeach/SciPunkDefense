@@ -8,14 +8,11 @@ public class SteamCore : MonoBehaviour
     public float gen_Time;
     int current_hp;
 
-    public GameObject g_Manager;
-
-
     // Start is called before the first frame update
     void Start()
     {
         current_hp = MAX_HEALTH;
-        g_Manager.GetComponent<GameManager>().currency = g_Manager.GetComponent<GameManager>().startCurrency;
+        GameManager.Instance.currency = GameManager.Instance.startCurrency;
         StartCoroutine(generateGold());
     }
 
@@ -24,7 +21,7 @@ public class SteamCore : MonoBehaviour
         while (current_hp > 0)
         {
             yield return new WaitForSeconds(gen_Time);
-            g_Manager.GetComponent<GameManager>().currency += 50;
+            GameManager.Instance.currency += 50;
             current_hp--;
         }
     }
@@ -32,7 +29,7 @@ public class SteamCore : MonoBehaviour
     //Generates gold for player every so often
     void FixedUpdate()
     {
-        g_Manager.GetComponent<GameManager>().coreHealth = current_hp;
+        GameManager.Instance.coreHealth = current_hp;
     }
 
 
