@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TDUIManager : MonoBehaviour
 {
-    public TextMesh goldCount;
-    public TextMesh coreHealth;
-    public TextMesh roundCount;
+    public Text goldCount;
+    public Text coreHealth;
+    public Text roundCount;
 
     // Start is called before the first frame update
     void Start()
