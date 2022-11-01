@@ -41,14 +41,15 @@ public class GridTile : MonoBehaviour
     {
         SetTurretPos();
         isHovered = false;
-        isOccupied = false;
         isSelected = false;
         _renderer = GetComponent<Renderer>();
         defaultMaterial = defaultMaterial ?? _renderer.material;
+
+        _renderer.enabled = !isOccupied;
         InstantiateFloorTile();
     }
 
-    private void UpdateMaterial (Material material)
+    private void UpdateMaterial(Material material)
     {
         if (isSelected)
         {

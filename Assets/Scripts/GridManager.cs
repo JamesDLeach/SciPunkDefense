@@ -44,6 +44,7 @@ public class GridManager : MonoBehaviour
         GameObject newTurret = Instantiate(turret, selectedTile.transform.position + selectedTile.turretOffset, Quaternion.identity, selectedTile.transform.parent);
         selectedTile.turret = newTurret;
         selectedTile.isOccupied = true;
+        selectedTile.GetComponent<Renderer>().enabled = false;
     }
 
     void Start()
