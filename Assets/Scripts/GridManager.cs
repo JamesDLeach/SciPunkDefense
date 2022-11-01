@@ -49,6 +49,14 @@ public class GridManager : MonoBehaviour
     void Start()
     {
         gridMap = new Dictionary<(int, int), GridTile>();
+        if (gridParent.transform.childCount > 0)
+        {
+            foreach (GridTile t in gridParent.transform.GetComponentsInChildren<GridTile>())
+            {
+                gridMap.Add(((int)t.gridPos.x, (int)t.gridPos.y), t);
+            }
+            return;
+        }
         Vector3 gridCorner = gridParent.transform.position;
         Vector3 offSet = gridCorner - new Vector3(tileSize * gridWidth / 2, 0, tileSize * gridLength / 2);
         for (int x = 0; x < gridWidth; x++)
