@@ -28,7 +28,7 @@ public class GridManager : MonoBehaviour
                 GameObject newTile = Instantiate(gridTile, newPosition, Quaternion.identity, gridParent.transform);
                 GridTile newTileComponent = newTile.GetComponent<GridTile>();
                 Vector3 size = newTile.GetComponent<Renderer>().bounds.size;
-                newTile.transform.localScale = ((tileSize - padding)) * new Vector3(1 / size.x, 1, 1 / size.z);
+                newTile.transform.localScale = new Vector3((tileSize - padding) / size.x, 1, (tileSize - padding) / size.z);
                 newTileComponent.gridPos = new Vector2(x, z);
                 gridMap.Add((x, z), newTileComponent);
             }
