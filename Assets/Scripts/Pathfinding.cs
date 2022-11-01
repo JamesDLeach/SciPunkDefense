@@ -46,6 +46,10 @@ public class Pathfinding : MonoBehaviour
         {
             GameManager.Instance.coreHealth -= 10;
             Destroy(gameObject);
+            if (GameManager.Instance.coreHealth <= 0)
+            {
+                Time.timeScale = 0;
+            }
         }
     }
 }

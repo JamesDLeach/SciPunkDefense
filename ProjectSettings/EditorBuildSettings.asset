@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/TrackDesign.unity
-    guid: 842487b51a88ba54f84d9107122b212d
+    path: Assets/Scenes/DefenseScene 2.unity
+    guid: 5e1735ebeb9e23d47b0e0d9db2be3c26
   m_configObjects: {}
