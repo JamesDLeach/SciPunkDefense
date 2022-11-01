@@ -5633,7 +5633,7 @@ MonoBehaviour:
   startCurrency: 200
   round: 1
   coreHealth: 1
-  turretCost: 0
+  turretCost: 100
   coreSpawned: 1
   points:
   - {fileID: 1183878239}
@@ -5656,6 +5656,7 @@ MonoBehaviour:
   - {fileID: 928671573}
   - {fileID: 991057038}
   - {fileID: 198331340}
+  - {fileID: 852394454}
   - {fileID: 852394454}
 --- !u!4 &123775843
 Transform:

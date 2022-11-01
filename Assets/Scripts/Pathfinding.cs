@@ -42,7 +42,7 @@ public class Pathfinding : MonoBehaviour
         int prevDest = destPoint;
         nav.destination = points[destPoint].position;
         destPoint = (destPoint + 1) % points.Length;
-        if(prevDest - 1 > destPoint)
+        if(prevDest - 2 > destPoint)
         {
             GameManager.Instance.coreHealth -= 10;
             Destroy(gameObject);

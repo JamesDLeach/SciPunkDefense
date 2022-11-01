@@ -25,7 +25,6 @@ public class SteamCore : MonoBehaviour
         {
             yield return new WaitForSeconds(gen_Time);
             GameManager.Instance.currency += gen_amnt;
-            GameManager.Instance.coreHealth--;
         }
     }
 
@@ -33,7 +32,8 @@ public class SteamCore : MonoBehaviour
     {
         while (GameManager.Instance.coreHealth > 0)
         {
-            yield return new WaitForSeconds(gen_Time / 3);
+            yield return new WaitForSeconds(gen_Time);
+            gen_Time = Mathf.Max(gen_Time * .95f, .5f);
             GameObject tempMin = Instantiate(minion, minionPortal.transform.position, Quaternion.identity);
             tempMin.GetComponent<Pathfinding>().points = GameManager.Instance.points;
         }
