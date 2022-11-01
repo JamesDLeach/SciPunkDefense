@@ -31,7 +31,7 @@ public class GridTile : MonoBehaviour
         {
             return;
         }
-        GameObject tempTile = Instantiate(floorTile, transform.position, transform.rotation, transform.parent);
+        GameObject tempTile = Instantiate(floorTile, transform.position + floorOffset, transform.rotation, transform.parent);
         Vector3 size = _renderer.bounds.size;
         //Think scale should be tile size + 2 * padding
         tempTile.transform.localScale = new Vector3(5 / size.x, 1, 5 / size.z);

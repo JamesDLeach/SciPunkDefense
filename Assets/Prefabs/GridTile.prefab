@@ -101,8 +101,9 @@ MonoBehaviour:
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
   turretOffset: {x: 0, y: 0, z: 0}
-  floorOffset: {x: 0, y: 0, z: 0}
+  floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
+  isSelected: 0
   isOccupied: 0
   defaultMaterial: {fileID: 2100000, guid: 37e1b074d81ac1d45b2bd558476b5df5, type: 2}
   hoverMaterial: {fileID: 2100000, guid: 7e6b915e206aee84789e2de5919af2cc, type: 2}
