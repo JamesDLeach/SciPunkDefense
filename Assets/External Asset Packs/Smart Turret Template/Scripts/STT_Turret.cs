@@ -67,7 +67,7 @@ public class STT_Turret : MonoBehaviour {
 		
 		GetComponent<SphereCollider> ().isTrigger = true;
 		GetComponent<SphereCollider> ().radius = parameters.radius;
-		GetComponent<BoxCollider> ().size =  new Vector3(2,2,2);
+		GetComponent<BoxCollider> ().size =  new Vector3(1.5f,2,1.5f);
 		GetComponent<BoxCollider> ().center =  new Vector3(0,1,0);
 	}
 

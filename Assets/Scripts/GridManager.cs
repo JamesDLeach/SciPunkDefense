@@ -45,6 +45,7 @@ public class GridManager : MonoBehaviour
         selectedTile.turret = newTurret;
         selectedTile.isOccupied = true;
         selectedTile.GetComponent<Renderer>().enabled = false;
+        Physics.IgnoreCollision(selectedTile.GetComponent<Collider>(), turret.GetComponentInChildren<Collider>());
     }
 
     void Start()
@@ -55,6 +56,11 @@ public class GridManager : MonoBehaviour
             foreach (GridTile t in gridParent.transform.GetComponentsInChildren<GridTile>())
             {
                 gridMap.Add(((int)t.gridPos.x, (int)t.gridPos.y), t);
+                if (t.turret)
+                {
+                    t.turret.transform.position = t.transform.position + t.turretOffset;
+                    Physics.IgnoreCollision(t.GetComponent<Collider>(), t.turret.GetComponentInChildren<Collider>());
+                }
             }
             return;
         }

@@ -166,10 +166,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350895}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1350898
 MonoBehaviour:
@@ -186,7 +186,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -480,10 +480,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15594555}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &15594558
 MonoBehaviour:
@@ -500,7 +500,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -600,10 +600,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17386909}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &17386912
 MonoBehaviour:
@@ -620,7 +620,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -1820,10 +1820,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46813684}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &46813687
 MonoBehaviour:
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -2262,10 +2262,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64785038}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &64785041
 MonoBehaviour:
@@ -2282,7 +2282,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -2464,10 +2464,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71470848}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &71470851
 MonoBehaviour:
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -2658,10 +2658,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79262983}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &79262986
 MonoBehaviour:
@@ -2678,7 +2678,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -2778,10 +2778,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80998200}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &80998203
 MonoBehaviour:
@@ -2798,7 +2798,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3072,10 +3072,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92680410}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &92680413
 MonoBehaviour:
@@ -3092,7 +3092,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3192,10 +3192,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95342511}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &95342514
 MonoBehaviour:
@@ -3212,7 +3212,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3312,10 +3312,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97488814}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &97488817
 MonoBehaviour:
@@ -3332,7 +3332,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3532,10 +3532,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101670065}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &101670068
 MonoBehaviour:
@@ -3552,7 +3552,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3752,10 +3752,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106167563}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &106167566
 MonoBehaviour:
@@ -3772,7 +3772,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 1}
   turret: {fileID: 852394453}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -3872,10 +3872,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110934682}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &110934685
 MonoBehaviour:
@@ -3892,7 +3892,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -4148,10 +4148,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112209773}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &112209776
 MonoBehaviour:
@@ -4168,7 +4168,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -4584,10 +4584,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130724284}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &130724287
 MonoBehaviour:
@@ -4604,7 +4604,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -5104,10 +5104,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145742347}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &145742350
 MonoBehaviour:
@@ -5124,7 +5124,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -5698,10 +5698,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154076771}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &154076774
 MonoBehaviour:
@@ -5718,7 +5718,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -5900,10 +5900,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159497141}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &159497144
 MonoBehaviour:
@@ -5920,7 +5920,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -6020,10 +6020,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165231422}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &165231425
 MonoBehaviour:
@@ -6040,7 +6040,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -6140,10 +6140,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166487741}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &166487744
 MonoBehaviour:
@@ -6160,7 +6160,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -6334,10 +6334,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172980809}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &172980812
 MonoBehaviour:
@@ -6354,7 +6354,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -6554,10 +6554,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184024663}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &184024666
 MonoBehaviour:
@@ -6574,7 +6574,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -6756,10 +6756,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186372631}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &186372634
 MonoBehaviour:
@@ -6776,7 +6776,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -7073,10 +7073,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198485149}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &198485152
 MonoBehaviour:
@@ -7093,7 +7093,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -7267,10 +7267,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 224263333}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &224263336
 MonoBehaviour:
@@ -7287,7 +7287,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -7469,10 +7469,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237767841}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &237767844
 MonoBehaviour:
@@ -7489,7 +7489,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -7871,10 +7871,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240831315}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &240831318
 MonoBehaviour:
@@ -7891,7 +7891,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -7991,10 +7991,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248363299}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &248363302
 MonoBehaviour:
@@ -8011,7 +8011,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -9087,10 +9087,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298505416}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &298505419
 MonoBehaviour:
@@ -9107,7 +9107,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -9404,10 +9404,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302505858}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &302505861
 MonoBehaviour:
@@ -9424,7 +9424,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -9524,10 +9524,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302782076}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &302782079
 MonoBehaviour:
@@ -9544,7 +9544,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -9644,10 +9644,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303373390}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &303373393
 MonoBehaviour:
@@ -9664,7 +9664,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -9838,10 +9838,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310774311}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &310774314
 MonoBehaviour:
@@ -9858,7 +9858,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -10122,10 +10122,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315059411}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &315059414
 MonoBehaviour:
@@ -10142,7 +10142,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -10242,10 +10242,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316959847}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &316959850
 MonoBehaviour:
@@ -10262,7 +10262,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -10618,10 +10618,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330549540}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &330549543
 MonoBehaviour:
@@ -10638,7 +10638,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -10812,10 +10812,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332518129}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &332518132
 MonoBehaviour:
@@ -10832,7 +10832,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -10932,10 +10932,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334126492}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &334126495
 MonoBehaviour:
@@ -10952,7 +10952,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -11052,10 +11052,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339069260}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &339069263
 MonoBehaviour:
@@ -11072,7 +11072,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -12052,10 +12052,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391916201}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &391916204
 MonoBehaviour:
@@ -12072,7 +12072,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -12336,10 +12336,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403163520}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &403163523
 MonoBehaviour:
@@ -12356,7 +12356,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -12794,10 +12794,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422376121}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &422376124
 MonoBehaviour:
@@ -12814,7 +12814,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -13214,10 +13214,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430279047}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &430279050
 MonoBehaviour:
@@ -13234,7 +13234,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -13849,10 +13849,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454412973}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &454412976
 MonoBehaviour:
@@ -13869,7 +13869,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -14567,10 +14567,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467427927}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &467427930
 MonoBehaviour:
@@ -14587,7 +14587,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -14844,10 +14844,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479460474}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &479460477
 MonoBehaviour:
@@ -14864,7 +14864,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -15046,10 +15046,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484070945}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &484070948
 MonoBehaviour:
@@ -15066,7 +15066,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -15166,10 +15166,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485699776}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &485699779
 MonoBehaviour:
@@ -15186,7 +15186,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -15468,10 +15468,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489367830}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &489367833
 MonoBehaviour:
@@ -15488,7 +15488,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -15862,10 +15862,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502810772}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &502810775
 MonoBehaviour:
@@ -15882,7 +15882,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -15982,10 +15982,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505184636}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &505184639
 MonoBehaviour:
@@ -16002,7 +16002,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -16202,10 +16202,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509726088}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &509726091
 MonoBehaviour:
@@ -16222,7 +16222,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -16747,10 +16747,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523222461}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &523222464
 MonoBehaviour:
@@ -16767,7 +16767,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -17023,10 +17023,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531000917}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &531000920
 MonoBehaviour:
@@ -17043,7 +17043,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -17217,10 +17217,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551982716}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &551982719
 MonoBehaviour:
@@ -17237,7 +17237,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -17737,10 +17737,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560316197}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &560316200
 MonoBehaviour:
@@ -17757,7 +17757,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -18139,10 +18139,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580736829}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &580736832
 MonoBehaviour:
@@ -18159,7 +18159,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -18433,10 +18433,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593517654}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &593517657
 MonoBehaviour:
@@ -18453,7 +18453,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -18933,10 +18933,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607017864}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &607017867
 MonoBehaviour:
@@ -18953,7 +18953,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -19153,10 +19153,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608266191}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &608266194
 MonoBehaviour:
@@ -19173,7 +19173,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -19355,10 +19355,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610729408}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &610729411
 MonoBehaviour:
@@ -19375,7 +19375,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -19757,10 +19757,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615273023}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &615273026
 MonoBehaviour:
@@ -19777,7 +19777,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -19877,10 +19877,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616527532}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &616527535
 MonoBehaviour:
@@ -19897,7 +19897,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -19997,10 +19997,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618230331}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &618230334
 MonoBehaviour:
@@ -20017,7 +20017,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -20117,10 +20117,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623046552}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &623046555
 MonoBehaviour:
@@ -20137,7 +20137,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -20437,10 +20437,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635167956}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &635167959
 MonoBehaviour:
@@ -20457,7 +20457,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -20557,10 +20557,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637193240}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &637193243
 MonoBehaviour:
@@ -20577,7 +20577,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -20759,10 +20759,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643429236}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &643429239
 MonoBehaviour:
@@ -20779,7 +20779,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -20953,10 +20953,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651970588}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &651970591
 MonoBehaviour:
@@ -20973,7 +20973,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -21370,10 +21370,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665276763}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &665276766
 MonoBehaviour:
@@ -21390,7 +21390,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -21490,10 +21490,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666748100}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &666748103
 MonoBehaviour:
@@ -21510,7 +21510,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -21684,10 +21684,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669055677}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &669055680
 MonoBehaviour:
@@ -21704,7 +21704,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -21804,10 +21804,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670130425}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &670130428
 MonoBehaviour:
@@ -21824,7 +21824,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -22324,10 +22324,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688258862}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &688258865
 MonoBehaviour:
@@ -22344,7 +22344,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -22544,10 +22544,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690901740}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &690901743
 MonoBehaviour:
@@ -22564,7 +22564,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -22738,10 +22738,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 693185006}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &693185009
 MonoBehaviour:
@@ -22758,7 +22758,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -22858,10 +22858,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704192800}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &704192803
 MonoBehaviour:
@@ -22878,7 +22878,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -23060,10 +23060,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711323089}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &711323092
 MonoBehaviour:
@@ -23080,7 +23080,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -23666,10 +23666,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736237410}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &736237413
 MonoBehaviour:
@@ -23686,7 +23686,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -23786,10 +23786,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736449524}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &736449527
 MonoBehaviour:
@@ -23806,7 +23806,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -23906,10 +23906,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737076089}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &737076092
 MonoBehaviour:
@@ -23926,7 +23926,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -24168,10 +24168,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743919296}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &743919299
 MonoBehaviour:
@@ -24188,7 +24188,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -24362,10 +24362,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748779828}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &748779831
 MonoBehaviour:
@@ -24382,7 +24382,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -24582,10 +24582,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759495392}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &759495395
 MonoBehaviour:
@@ -24602,7 +24602,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -24802,10 +24802,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762974704}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &762974707
 MonoBehaviour:
@@ -24822,7 +24822,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -25144,10 +25144,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776134995}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &776134998
 MonoBehaviour:
@@ -25164,7 +25164,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -25364,10 +25364,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779142597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &779142600
 MonoBehaviour:
@@ -25384,7 +25384,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -26006,10 +26006,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813045899}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &813045902
 MonoBehaviour:
@@ -26026,7 +26026,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -26300,10 +26300,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825506352}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &825506355
 MonoBehaviour:
@@ -26320,7 +26320,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -26420,10 +26420,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826972151}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &826972154
 MonoBehaviour:
@@ -26440,7 +26440,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -26540,10 +26540,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829350398}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &829350401
 MonoBehaviour:
@@ -26560,7 +26560,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -26839,10 +26839,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846115870}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &846115873
 MonoBehaviour:
@@ -26859,7 +26859,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -27243,10 +27243,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859169143}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &859169146
 MonoBehaviour:
@@ -27263,7 +27263,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -27363,10 +27363,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866543415}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &866543418
 MonoBehaviour:
@@ -27383,7 +27383,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -27483,10 +27483,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866897056}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &866897059
 MonoBehaviour:
@@ -27503,7 +27503,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -27703,10 +27703,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871290862}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &871290865
 MonoBehaviour:
@@ -27723,7 +27723,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -28061,10 +28061,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877415619}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &877415622
 MonoBehaviour:
@@ -28081,7 +28081,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -28181,10 +28181,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879807907}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &879807910
 MonoBehaviour:
@@ -28201,7 +28201,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -28703,7 +28703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    toughness: 10
+    toughness: 100
     armor: 10
     damageFactor: 1
   VFX:
@@ -28966,10 +28966,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902744289}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &902744292
 MonoBehaviour:
@@ -28986,7 +28986,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -29260,10 +29260,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910231039}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &910231042
 MonoBehaviour:
@@ -29280,7 +29280,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -29480,10 +29480,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917884764}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &917884767
 MonoBehaviour:
@@ -29500,7 +29500,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -29600,10 +29600,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918899947}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &918899950
 MonoBehaviour:
@@ -29620,7 +29620,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -30317,10 +30317,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938628148}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &938628151
 MonoBehaviour:
@@ -30337,7 +30337,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -30437,10 +30437,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947224906}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &947224909
 MonoBehaviour:
@@ -30457,7 +30457,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -30939,10 +30939,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963414071}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &963414074
 MonoBehaviour:
@@ -30959,7 +30959,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -31059,10 +31059,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965493869}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &965493872
 MonoBehaviour:
@@ -31079,7 +31079,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -31253,10 +31253,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968100610}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &968100613
 MonoBehaviour:
@@ -31273,7 +31273,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -32167,10 +32167,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988484569}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &988484572
 MonoBehaviour:
@@ -32187,7 +32187,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -33165,10 +33165,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008659507}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1008659510
 MonoBehaviour:
@@ -33185,7 +33185,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -33285,10 +33285,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009416745}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1009416748
 MonoBehaviour:
@@ -33305,7 +33305,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -33405,10 +33405,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010521397}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1010521400
 MonoBehaviour:
@@ -33425,7 +33425,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -33525,10 +33525,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012050156}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1012050159
 MonoBehaviour:
@@ -33545,7 +33545,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -33745,10 +33745,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016016016}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1016016019
 MonoBehaviour:
@@ -33765,7 +33765,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -34039,10 +34039,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024920896}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1024920899
 MonoBehaviour:
@@ -34059,7 +34059,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -34159,10 +34159,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025231818}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1025231821
 MonoBehaviour:
@@ -34179,7 +34179,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -34435,10 +34435,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029926377}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1029926380
 MonoBehaviour:
@@ -34455,7 +34455,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 12}
   turret: {fileID: 1850887235}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -34555,10 +34555,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030641176}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1030641179
 MonoBehaviour:
@@ -34575,7 +34575,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -35728,10 +35728,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073690641}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1073690644
 MonoBehaviour:
@@ -35748,7 +35748,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -35848,10 +35848,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074547854}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1074547857
 MonoBehaviour:
@@ -35868,7 +35868,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -36451,10 +36451,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096299397}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1096299400
 MonoBehaviour:
@@ -36471,7 +36471,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -36852,10 +36852,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1114504751}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1114504754
 MonoBehaviour:
@@ -36872,7 +36872,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -37228,10 +37228,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123327821}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1123327824
 MonoBehaviour:
@@ -37248,7 +37248,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -37901,10 +37901,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136934263}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1136934266
 MonoBehaviour:
@@ -37921,7 +37921,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -38869,10 +38869,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165833605}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1165833608
 MonoBehaviour:
@@ -38889,7 +38889,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -38989,10 +38989,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168677516}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1168677519
 MonoBehaviour:
@@ -39009,7 +39009,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -39109,10 +39109,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169608949}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1169608952
 MonoBehaviour:
@@ -39129,7 +39129,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -39363,10 +39363,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174056685}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1174056688
 MonoBehaviour:
@@ -39383,7 +39383,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -39928,10 +39928,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186747885}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1186747888
 MonoBehaviour:
@@ -39948,7 +39948,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -40516,10 +40516,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201433257}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1201433260
 MonoBehaviour:
@@ -40536,7 +40536,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -40636,10 +40636,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207662846}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1207662849
 MonoBehaviour:
@@ -40656,7 +40656,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -41018,10 +41018,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217917490}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1217917493
 MonoBehaviour:
@@ -41038,7 +41038,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -41238,10 +41238,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223838413}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1223838416
 MonoBehaviour:
@@ -41258,7 +41258,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -41432,10 +41432,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233802340}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1233802343
 MonoBehaviour:
@@ -41452,7 +41452,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -41552,10 +41552,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234925898}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1234925901
 MonoBehaviour:
@@ -41572,7 +41572,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -41872,10 +41872,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255713224}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1255713227
 MonoBehaviour:
@@ -41892,7 +41892,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -42304,10 +42304,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263122685}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1263122688
 MonoBehaviour:
@@ -42324,7 +42324,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -42498,10 +42498,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263849271}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1263849274
 MonoBehaviour:
@@ -42518,7 +42518,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -42618,10 +42618,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263989116}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1263989119
 MonoBehaviour:
@@ -42638,7 +42638,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -42812,10 +42812,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268668363}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1268668366
 MonoBehaviour:
@@ -42832,7 +42832,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -43314,10 +43314,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295185549}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1295185552
 MonoBehaviour:
@@ -43334,7 +43334,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -43434,10 +43434,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302779272}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1302779275
 MonoBehaviour:
@@ -43454,7 +43454,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -43736,10 +43736,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307236684}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1307236687
 MonoBehaviour:
@@ -43756,7 +43756,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -44104,10 +44104,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325505483}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1325505486
 MonoBehaviour:
@@ -44124,7 +44124,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -44224,10 +44224,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331398123}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1331398126
 MonoBehaviour:
@@ -44244,7 +44244,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -44344,10 +44344,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333697506}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1333697509
 MonoBehaviour:
@@ -44364,7 +44364,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -44646,10 +44646,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351311323}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1351311326
 MonoBehaviour:
@@ -44666,7 +44666,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -45066,10 +45066,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368749271}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1368749274
 MonoBehaviour:
@@ -45086,7 +45086,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -45286,10 +45286,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369445317}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1369445320
 MonoBehaviour:
@@ -45306,7 +45306,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -45406,10 +45406,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370110023}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1370110026
 MonoBehaviour:
@@ -45426,7 +45426,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -45526,10 +45526,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375439123}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1375439126
 MonoBehaviour:
@@ -45546,7 +45546,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -45720,10 +45720,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378229914}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1378229917
 MonoBehaviour:
@@ -45740,7 +45740,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -46022,10 +46022,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402204933}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1402204936
 MonoBehaviour:
@@ -46042,7 +46042,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -46524,10 +46524,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414526828}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1414526831
 MonoBehaviour:
@@ -46544,7 +46544,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -46844,10 +46844,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419250796}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1419250799
 MonoBehaviour:
@@ -46864,7 +46864,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -47115,10 +47115,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430004692}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1430004695
 MonoBehaviour:
@@ -47135,7 +47135,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -47473,10 +47473,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448173941}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1448173944
 MonoBehaviour:
@@ -47493,7 +47493,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -47775,10 +47775,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456659908}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1456659911
 MonoBehaviour:
@@ -47795,7 +47795,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -47895,10 +47895,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464322329}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1464322332
 MonoBehaviour:
@@ -47915,7 +47915,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -48297,10 +48297,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480042796}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1480042799
 MonoBehaviour:
@@ -48317,7 +48317,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -48617,10 +48617,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494608251}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1494608254
 MonoBehaviour:
@@ -48637,7 +48637,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -48737,10 +48737,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505517278}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1505517281
 MonoBehaviour:
@@ -48757,7 +48757,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -48931,10 +48931,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520381636}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1520381639
 MonoBehaviour:
@@ -48951,7 +48951,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -49331,10 +49331,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534769412}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1534769415
 MonoBehaviour:
@@ -49351,7 +49351,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -49533,10 +49533,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535364286}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1535364289
 MonoBehaviour:
@@ -49553,7 +49553,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -49735,10 +49735,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539913014}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1539913017
 MonoBehaviour:
@@ -49755,7 +49755,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -49855,10 +49855,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540516629}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1540516632
 MonoBehaviour:
@@ -49875,7 +49875,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -50449,10 +50449,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549191858}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1549191861
 MonoBehaviour:
@@ -50469,7 +50469,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -50957,10 +50957,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565381188}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1565381191
 MonoBehaviour:
@@ -50977,7 +50977,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -51351,10 +51351,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575201541}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1575201544
 MonoBehaviour:
@@ -51371,7 +51371,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -51471,10 +51471,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576330740}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1576330743
 MonoBehaviour:
@@ -51491,7 +51491,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -51691,10 +51691,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578570934}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1578570937
 MonoBehaviour:
@@ -51711,7 +51711,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -51811,10 +51811,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584572501}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1584572504
 MonoBehaviour:
@@ -51831,7 +51831,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -52131,10 +52131,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594609545}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1594609548
 MonoBehaviour:
@@ -52151,7 +52151,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -52251,10 +52251,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594666905}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1594666908
 MonoBehaviour:
@@ -52271,7 +52271,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -52719,10 +52719,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627390100}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1627390103
 MonoBehaviour:
@@ -52739,7 +52739,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -52839,10 +52839,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632775786}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1632775789
 MonoBehaviour:
@@ -52859,7 +52859,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53033,10 +53033,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640255378}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1640255381
 MonoBehaviour:
@@ -53053,7 +53053,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53153,10 +53153,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651158173}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1651158176
 MonoBehaviour:
@@ -53173,7 +53173,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53529,10 +53529,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669366165}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1669366168
 MonoBehaviour:
@@ -53549,7 +53549,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53649,10 +53649,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671141637}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1671141640
 MonoBehaviour:
@@ -53669,7 +53669,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 13}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53769,10 +53769,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671399080}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1671399083
 MonoBehaviour:
@@ -53789,7 +53789,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -53989,10 +53989,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678437478}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1678437481
 MonoBehaviour:
@@ -54009,7 +54009,7 @@ MonoBehaviour:
   gridPos: {x: 2, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -54291,10 +54291,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682095874}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1682095877
 MonoBehaviour:
@@ -54311,7 +54311,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -54723,10 +54723,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692092190}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1692092193
 MonoBehaviour:
@@ -54743,7 +54743,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -54843,10 +54843,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693071288}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1693071291
 MonoBehaviour:
@@ -54863,7 +54863,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -55391,10 +55391,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711607196}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1711607199
 MonoBehaviour:
@@ -55411,7 +55411,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -55611,10 +55611,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719189147}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1719189150
 MonoBehaviour:
@@ -55631,7 +55631,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -55905,10 +55905,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734178604}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1734178607
 MonoBehaviour:
@@ -55925,7 +55925,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -56481,10 +56481,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739959610}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1739959613
 MonoBehaviour:
@@ -56501,7 +56501,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -56601,10 +56601,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741295168}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1741295171
 MonoBehaviour:
@@ -56621,7 +56621,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -56721,10 +56721,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745846270}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1745846273
 MonoBehaviour:
@@ -56741,7 +56741,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -57041,10 +57041,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754701789}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1754701792
 MonoBehaviour:
@@ -57061,7 +57061,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -57335,10 +57335,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765492952}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1765492955
 MonoBehaviour:
@@ -57355,7 +57355,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -57455,10 +57455,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766969543}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1766969546
 MonoBehaviour:
@@ -57475,7 +57475,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -57675,10 +57675,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773297934}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1773297937
 MonoBehaviour:
@@ -57695,7 +57695,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -58640,10 +58640,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805830635}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1805830638
 MonoBehaviour:
@@ -58660,7 +58660,7 @@ MonoBehaviour:
   gridPos: {x: 3, y: 5}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -59124,10 +59124,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825159791}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1825159794
 MonoBehaviour:
@@ -59144,7 +59144,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -59244,10 +59244,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829287379}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1829287382
 MonoBehaviour:
@@ -59264,7 +59264,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -59956,10 +59956,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899270510}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1899270513
 MonoBehaviour:
@@ -59976,7 +59976,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -60150,10 +60150,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907973787}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1907973790
 MonoBehaviour:
@@ -60170,7 +60170,7 @@ MonoBehaviour:
   gridPos: {x: 6, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -60370,10 +60370,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910478713}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1910478716
 MonoBehaviour:
@@ -60390,7 +60390,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -60764,10 +60764,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916291099}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1916291102
 MonoBehaviour:
@@ -60784,7 +60784,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -60884,10 +60884,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921688727}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1921688730
 MonoBehaviour:
@@ -60904,7 +60904,7 @@ MonoBehaviour:
   gridPos: {x: 12, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -61483,10 +61483,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941937511}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1941937514
 MonoBehaviour:
@@ -61503,7 +61503,7 @@ MonoBehaviour:
   gridPos: {x: 10, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -61885,10 +61885,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953711947}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1953711950
 MonoBehaviour:
@@ -61905,7 +61905,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 10}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -62305,10 +62305,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960223283}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1960223286
 MonoBehaviour:
@@ -62325,7 +62325,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -62581,10 +62581,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965827164}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1965827167
 MonoBehaviour:
@@ -62601,7 +62601,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -62783,10 +62783,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971003741}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1971003744
 MonoBehaviour:
@@ -62803,7 +62803,7 @@ MonoBehaviour:
   gridPos: {x: 5, y: 2}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -63451,10 +63451,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993151413}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1993151416
 MonoBehaviour:
@@ -63471,7 +63471,7 @@ MonoBehaviour:
   gridPos: {x: 13, y: 14}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -63571,10 +63571,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994486135}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1994486138
 MonoBehaviour:
@@ -63591,7 +63591,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -63973,10 +63973,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025187601}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2025187604
 MonoBehaviour:
@@ -63993,7 +63993,7 @@ MonoBehaviour:
   gridPos: {x: 14, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -64093,10 +64093,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028159973}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2028159976
 MonoBehaviour:
@@ -64113,7 +64113,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -64413,10 +64413,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035855001}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2035855004
 MonoBehaviour:
@@ -64433,7 +64433,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 1}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -64533,10 +64533,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036148922}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2036148925
 MonoBehaviour:
@@ -64553,7 +64553,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -65209,10 +65209,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044366839}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2044366842
 MonoBehaviour:
@@ -65229,7 +65229,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 11}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -65857,10 +65857,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062137538}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2062137541
 MonoBehaviour:
@@ -65877,7 +65877,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 0}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -65977,10 +65977,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066502080}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2066502083
 MonoBehaviour:
@@ -65997,7 +65997,7 @@ MonoBehaviour:
   gridPos: {x: 8, y: 12}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -66109,10 +66109,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114386945016863856, guid: 2fafc82d17757493ca36f1cfb64b683d, type: 3}
-      propertyPath: parameters.radius
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fafc82d17757493ca36f1cfb64b683d, type: 3}
 --- !u!1 &2073616508
@@ -66158,10 +66154,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073616508}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2073616511
 MonoBehaviour:
@@ -66178,7 +66174,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 6}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -66372,10 +66368,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078027929}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2078027932
 MonoBehaviour:
@@ -66392,7 +66388,7 @@ MonoBehaviour:
   gridPos: {x: 9, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -66492,10 +66488,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078362478}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2078362481
 MonoBehaviour:
@@ -66512,7 +66508,7 @@ MonoBehaviour:
   gridPos: {x: 1, y: 8}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -66612,10 +66608,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083035953}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2083035956
 MonoBehaviour:
@@ -66632,7 +66628,7 @@ MonoBehaviour:
   gridPos: {x: 7, y: 7}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -67006,10 +67002,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106755219}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2106755222
 MonoBehaviour:
@@ -67026,7 +67022,7 @@ MonoBehaviour:
   gridPos: {x: 0, y: 4}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -67326,10 +67322,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116639940}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2116639943
 MonoBehaviour:
@@ -67346,7 +67342,7 @@ MonoBehaviour:
   gridPos: {x: 4, y: 3}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
@@ -68032,10 +68028,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136074661}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.5, y: 1, z: 10.5}
+  m_Size: {x: 10.5, y: 0.1, z: 10.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2136074664
 MonoBehaviour:
@@ -68052,7 +68048,7 @@ MonoBehaviour:
   gridPos: {x: 11, y: 9}
   turret: {fileID: 0}
   floorTile: {fileID: 6026500971558926292, guid: 2cf3f7686d396a547aed13f9281a785e, type: 3}
-  turretOffset: {x: 0, y: 0, z: 0}
+  turretOffset: {x: 0, y: 0.1, z: 0}
   floorOffset: {x: 0, y: -0.01, z: 0}
   isHovered: 0
   isSelected: 0
