@@ -24,7 +24,7 @@ public class TDUIManager : MonoBehaviour
     //Don't need to update every frame
     void FixedUpdate()
     {
-        goldCount.text = (gameObject.GetComponent<GameManager>().startCurrency.ToString());
+        goldCount.text = (gameObject.GetComponent<GameManager>().currency.ToString());
         coreHealth.text = (gameObject.GetComponent<GameManager>().coreHealth.ToString());
         roundCount.text = (gameObject.GetComponent<GameManager>().round.ToString());
     }
