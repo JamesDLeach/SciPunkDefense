@@ -108,7 +108,8 @@ public class STT_Turret : MonoBehaviour {
 		}
 			
 		RaycastHit hit; 
-		if (Physics.Raycast (VFX.muzzle.position, VFX.muzzle.transform.forward, out hit, parameters.radius)) {
+		if (Physics.Raycast (VFX.muzzle.position, (targeting.target.transform.position - VFX.muzzle.position).normalized, out hit, parameters.radius)) {
+			Debug.Log(hit.collider.tag);
 			if (CheckTags (hit.collider) == true) {
 				Shot ();
 				hit.collider.GetComponent<STT_Actor> ().ReceiveDamage (parameters.power, hit.point);
